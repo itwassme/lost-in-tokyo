@@ -6,7 +6,7 @@ const Highlight = ({ color, children }) => (
 
 const Intro = () => (
   <div className="m-auto-ns f4 f3-m f2-l tc w-80-l normal">
-    <div className="mb3 mb4-ns">
+    <div className="mb3 mb4-ns black">
       <Highlight color="aqua">Lost in Tokyo</Highlight> is a directory of fun
       places to see, play in and <Highlight color="yellow">explore</Highlight>,
       in <Highlight color="blue">Tokyo</Highlight>, Japan.
