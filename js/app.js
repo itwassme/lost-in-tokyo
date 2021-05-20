@@ -25,7 +25,7 @@ const Intro = () => (
 // it means we don't have to type our props.className, props.href, props.children etc
 const NavItem = ({ className, href, children, logo }) => (
   <li className={`mh2-ns f6 f4-l tc ${className}`}>
-    <a className="white no-underline" href={href}>
+    <a className="black no-underline" href={href}>
       {logo ? (
         <img src="images/logo.svg" className="db center logo" />
       ) : (
